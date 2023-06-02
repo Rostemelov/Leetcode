@@ -153,3 +153,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 
 //___________________________________________________________________________________________________________________________________________________________________
 //Approach 2: Convert LInkedList to integer then add the two numbers then create a linked list and return.
+//This approach is not very efficient as it requires to traverse both the lists multiple times.
